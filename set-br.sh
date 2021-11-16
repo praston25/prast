@@ -26,12 +26,12 @@ logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
 cd /usr/bin
-wget -O autobackup "https://linkkalian/autobackup.sh"
-wget -O backup "https://linkkalian/backup.sh"
-wget -O bckp "https://linkkalian/bckp.sh"
-wget -O restore "https://linkkalian/restore.sh"
-wget -O strt "https://linkkalian/strt.sh"
-wget -O limit-speed "https://linkkalian/limit-speed.sh"
+wget -O autobackup "https://raw.githubusercontent.com/praston25/prast/main/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/praston25/prast/main/backup.sh"
+wget -O bckp "https://raw.githubusercontent.com/praston25/prast/main/bckp.sh"
+wget -O restore "https://raw.githubusercontent.com/praston25/prast/main/restore.sh"
+wget -O strt "https://raw.githubusercontent.com/praston25/prast/main/strt.sh"
+wget -O limit-speed "https://raw.githubusercontent.com/praston25/prast/main/limit-speed.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x bckp

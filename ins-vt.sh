@@ -491,19 +491,19 @@ systemctl enable trojan
 systemctl restart v2ray
 systemctl enable v2ray
 cd /usr/bin
-wget -O add-ws "https://linkkalian/add-ws.sh"
-wget -O add-vless "https://linkkalian/add-vless.sh"
-wget -O add-tr "https://linkkalian/add-tr.sh"
-wget -O del-ws "https://linkkalian/del-ws.sh"
-wget -O del-vless "https://linkkalian/del-vless.sh"
-wget -O del-tr "https://linkkalian/del-tr.sh"
-wget -O cek-ws "https://linkkalian/cek-ws.sh"
-wget -O cek-vless "https://linkkalian/cek-vless.sh"
-wget -O cek-tr "https://linkkalian/cek-tr.sh"
-wget -O renew-ws "https://linkkalian/renew-ws.sh"
-wget -O renew-vless "https://linkkalian/renew-vless.sh"
-wget -O renew-tr "https://linkkalian/renew-tr.sh"
-wget -O certv2ray "https://linkkalian/cert.sh"
+wget -O add-ws "https://raw.githubusercontent.com/praston25/prast/main/add-ws.sh"
+wget -O add-vless "https://raw.githubusercontent.com/praston25/prast/main/add-vless.sh"
+wget -O add-tr "https://raw.githubusercontent.com/praston25/prast/main/add-tr.sh"
+wget -O del-ws "https://raw.githubusercontent.com/praston25/prast/main/del-ws.sh"
+wget -O del-vless "https://raw.githubusercontent.com/praston25/prast/main/del-vless.sh"
+wget -O del-tr "https://raw.githubusercontent.com/praston25/prast/main/del-tr.sh"
+wget -O cek-ws "https://raw.githubusercontent.com/praston25/prast/main/cek-ws.sh"
+wget -O cek-vless "https://raw.githubusercontent.com/praston25/prast/main/cek-vless.sh"
+wget -O cek-tr "https://raw.githubusercontent.com/praston25/prast/main/cek-tr.sh"
+wget -O renew-ws "https://raw.githubusercontent.com/praston25/prast/main/renew-ws.sh"
+wget -O renew-vless "https://raw.githubusercontent.com/praston25/prast/main/renew-vless.sh"
+wget -O renew-tr "https://raw.githubusercontent.com/praston25/prast/main/renew-tr.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/praston25/prast/main/cert.sh"
 chmod +x add-ws
 chmod +x add-vless
 chmod +x add-tr

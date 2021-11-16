@@ -89,10 +89,10 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O add-wg "https://linkkalian/add-wg.sh"
-wget -O del-wg "https://linkkalian/del-wg.sh"
-wget -O cek-wg "https://linkkalian/cek-wg.sh"
-wget -O renew-wg "https://linkkalian/renew-wg.sh"
+wget -O add-wg "https://raw.githubusercontent.com/praston25/prast/main/add-wg.sh"
+wget -O del-wg "https://raw.githubusercontent.com/praston25/prast/main/del-wg.sh"
+wget -O cek-wg "https://raw.githubusercontent.com/praston25/prast/main/cek-wg.sh"
+wget -O renew-wg "https://raw.githubusercontent.com/praston25/prast/main/renew-wg.sh"
 chmod +x add-wg
 chmod +x del-wg
 chmod +x cek-wg
